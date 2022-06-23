@@ -1,0 +1,19 @@
+.gridTemplate {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 0px;
+ }
+ 
+ .gridFull {
+  width: full;
+  height: 12rem;
+  background-color: magenta;
+  grid-column: 1 / span 4;
+  margin-bottom: 0px;
+ }
+ 
+ .gridItems {
+  width: full;
+  height: 0px;
+ }
+ 
